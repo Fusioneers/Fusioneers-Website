@@ -37,7 +37,7 @@
     </div>
     <nav class="navigation">
       {#each pages as page}
-        <a href={page.attributes.title.toLowerCase()}>{page.attributes.title}</a>
+        <a href={"../" + page.attributes.title.toLowerCase()}>{page.attributes.title}</a>
       {/each}
     </nav>
     <div on:click={openNav} class="hamburger">
