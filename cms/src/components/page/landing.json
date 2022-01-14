@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_landings",
+  "info": {
+    "displayName": "landing",
+    "icon": "file-image",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "header": {
+      "type": "string"
+    }
+  }
+}

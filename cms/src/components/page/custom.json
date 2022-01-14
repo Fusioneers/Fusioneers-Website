@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_customs",
+  "info": {
+    "displayName": "custom",
+    "icon": "terminal"
+  },
+  "options": {},
+  "attributes": {
+    "html": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_paragraphs",
+  "info": {
+    "displayName": "paragraph",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "body": {
+      "type": "richtext",
+      "required": true
+    },
+    "important": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}

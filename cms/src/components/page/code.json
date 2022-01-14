@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_codes",
+  "info": {
+    "displayName": "code",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string",
+      "required": true
+    },
+    "code": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

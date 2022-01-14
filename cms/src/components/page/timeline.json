@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_timelines",
+  "info": {
+    "displayName": "timeline",
+    "icon": "list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "events": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::event.event"
+    }
+  }
+}

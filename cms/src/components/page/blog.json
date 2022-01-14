@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_blogs",
+  "info": {
+    "displayName": "blog",
+    "icon": "pen-square"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "blog_entries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-entry.blog-entry"
+    }
+  }
+}

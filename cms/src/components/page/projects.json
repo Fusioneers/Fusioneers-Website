@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_projects",
+  "info": {
+    "displayName": "Projects",
+    "icon": "grip-horizontal"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::project.project"
+    }
+  }
+}

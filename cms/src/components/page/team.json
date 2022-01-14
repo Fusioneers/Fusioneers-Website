@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_teams",
+  "info": {
+    "displayName": "team",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "team_members": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::team-member.team-member"
+    }
+  }
+}
