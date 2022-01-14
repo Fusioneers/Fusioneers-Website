@@ -50,7 +50,7 @@
     <a href="javascript:void(0)" class="closebtn" on:click={closeNav}>&times;</a>
     <div class="overlay-content">
       {#each pages as page}
-        <a on:click={closeNav} href={page.attributes.title.toLowerCase()}>{page.attributes.title}</a>
+        <a on:click={closeNav} href={"../" + page.attributes.title.toLowerCase()}>{page.attributes.title}</a>
       {/each}
     </div>
   </div>
