@@ -43,12 +43,12 @@
             <section class="landing">
               {#if ['video/webm', 'video/mp4'].includes(component.media.data.attributes.mime)}
                 <video autoplay muted width="100%" height="100%">
-                  <source src={'http://192.168.56.13:1337' + component.media.data.attributes.url}
+                  <source src={'/assets' + component.media.data.attributes.url}
                           type={component.media.data.attributes.mime}>
                   Your browser does not support the video tag.
                 </video>
               {:else}
-                <img src={'http://192.168.56.13:1337' + component.media.data.attributes.url}
+                <img src={'/assets' + component.media.data.attributes.url}
                      alt={component.media.data.attributes.alternativeText}>
               {/if}
               {#if component.header}

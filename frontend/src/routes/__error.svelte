@@ -15,7 +15,7 @@
 <div class="site">
   <div class="landing">
     <h1 class="message">Whoops ...</h1>
-    <img src="/assets/nasa-Yj1M5riCKk4-unsplash.jpg"
+    <img src="/assets/2307372_b5ad0a88e9.jpg"
          alt="An astronaut floating in space">
   </div>
 </div>
