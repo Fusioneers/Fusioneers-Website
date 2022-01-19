@@ -58,8 +58,8 @@
                   <a href="#content">LEARN MORE</a>
                 </div>
               {/if}
-              <!--<a id="contribution"
-                 href='https://www.freepik.com/vectors/background'>Background vector created by pikisuperstar - www.freepik.com</a>-->
+              <a id="contribution"
+                 href='https://www.freepik.com/vectors/background'>Background vector created by pikisuperstar - www.freepik.com</a>
             </section>
           {/if}
 
