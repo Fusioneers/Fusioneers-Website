@@ -235,12 +235,13 @@ h1, h2, h3, h4, h5, p, a {
     }
 
     #contribution {
+      text-align: right;
+      width: 100vw;
       font-size: 0.9rem;
       position: absolute;
       bottom: 0;
       left: 0;
       color: black;
-      padding: 3px;
       text-decoration: none;
     }
   }
@@ -286,7 +287,7 @@ h1, h2, h3, h4, h5, p, a {
         margin: auto;
         display: grid;
 
-        grid-template-columns: repeat(3, minmax(0, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         @media (max-width: 900px) {
           grid-template-columns: repeat(2, minmax(0, 1fr));
         }

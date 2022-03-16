@@ -51,19 +51,6 @@ export async function get(): Promise<EndpointOutput> {
                   }
                 }
 
-                ... on ComponentPageTimeline {
-                  title
-                  events {
-                    data {
-                      attributes {
-                        title
-                        date
-                        description
-                      }
-                    }
-                  }
-                }
-
                 ... on ComponentPageCustom {
                   html
                 }
@@ -84,29 +71,8 @@ export async function get(): Promise<EndpointOutput> {
                         }
                         name
                         email
+                        github_username
                         characterization
-                        link
-                      }
-                    }
-                  }
-                }
-                
-                ... on ComponentPageProjects {
-                  title
-                  projects {
-                    data {
-                      attributes {
-                        image {
-                          data {
-                            attributes {
-                              mime
-                              url
-                              alternativeText
-                            }
-                          }
-                        }
-                        title
-                        description
                         link
                       }
                     }

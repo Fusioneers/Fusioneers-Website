@@ -54,12 +54,14 @@
               {#if component.header}
                 <div class="box">
                   <h1 class="header">{component.header}</h1>
-                  <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.</p>
+                  <p>Lorem ipsum dolor sit amet consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam.</p>
                   <a href="#content">LEARN MORE</a>
                 </div>
               {/if}
               <a id="contribution"
-                 href='https://www.freepik.com/vectors/background'>Background vector created by pikisuperstar - www.freepik.com</a>
+                 href='https://www.freepik.com/vectors/background'>Background vector created by pikisuperstar -
+                www.freepik.com</a>
             </section>
           {/if}
 
@@ -68,7 +70,7 @@
               <div class="paragraph">
                 {#if component.title}
                   <h1
-                          class={component.important ? "title important" : "title"}>{component.title}</h1>
+                    class={component.important ? "title important" : "title"}>{component.title}</h1>
                 {/if}
 
                 <p>{@html component.body.toString().replace(/\*\*/g, '<div style="color: #FF79C6; display: inline">').replace(/\/\*/g, '</div>')}</p>
@@ -135,7 +137,12 @@
                            alt={team_member.attributes.profile.data.attributes.alternativeText}>
                       <div class="text">
                         <h1 class="title">{team_member.attributes.name}</h1>
-                        <h2 class="email">{team_member.attributes.email}</h2>
+                        <h2 class="email">
+                          <a href="{'mailto:' + team_member.attributes.email}">{team_member.attributes.email}</a></h2>
+                        <h2>
+                          <a
+                            href="{'https://github.com/' + team_member.attributes.github_username}">{team_member.attributes.email}</a>
+                        </h2>
                         <p>{team_member.attributes.characterization}</p>
                       </div>
                     </div>
@@ -174,7 +181,7 @@
         {/each}
         <div class="footer">
           <p id="legal">
-            @ {cp_year} Fusioneers
+            Copyright {cp_year} Fusioneers
           </p>
         </div>
       </div>
